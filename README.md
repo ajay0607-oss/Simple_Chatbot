@@ -27,5 +27,4 @@ A simple Python-based program to manage a stock portfolio by calculating total i
 5. (Optional) Saves results to a `.txt` file.  
 
 ---
-
-## ▶️ Example Run
+---
