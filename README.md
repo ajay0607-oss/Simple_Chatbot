@@ -1,4 +1,6 @@
-##🤖 Basic Rule-Based Chatbot
+#🤖 Basic Rule-Based Chatbot
+
+
 ##📌 Overview
 
 This is a simple rule-based chatbot built in Python.
@@ -14,6 +16,7 @@ Partial matching so that "hello there" still matches "hello"
 
 Loop to keep the conversation going until the user says "bye"
 ----
+
 ##🛠️ Features
 
 ✅ Handles basic greetings like hello
@@ -25,7 +28,9 @@ Loop to keep the conversation going until the user says "bye"
 ✅ Works with partial input matching (e.g., hello buddy → hello)
 
 ✅ Exits gracefully when user says bye with a random goodbye message
+
 ----
+
 ## 🚀 How to Run
 
 Make sure you have Python 3.x installed.
