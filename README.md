@@ -1,30 +1,66 @@
-# 📈 Stock Portfolio Tracker
+##🤖 Basic Rule-Based Chatbot
+##📌 Overview
 
-A simple Python-based program to manage a stock portfolio by calculating total investment value using predefined (hardcoded) stock prices.
+This is a simple rule-based chatbot built in Python.
+It responds to user inputs like greetings, small talk, and exit commands using a predefined dictionary of responses.
 
----
+The chatbot uses:
 
-## 🚀 Features
-- Accepts stock symbols and their quantities from the user.  
-- Calculates the **total investment value** using predefined stock prices.  
-- Displays a detailed **portfolio summary** (stock, quantity, price, value).  
-- Option to **save the summary** in a text file (`portfolio_summary.txt`).  
-- Input validation for incorrect stock symbols and quantities.  
+Dictionary lookup for responses
 
----
+Random choice from multiple possible replies
 
-## 🛠️ Technologies Used
-- **Python 3**
-- Core concepts: `dictionary`, `input/output`, `basic arithmetic`, `file handling`
+Partial matching so that "hello there" still matches "hello"
 
----
+Loop to keep the conversation going until the user says "bye"
+----
+##🛠️ Features
 
-## 📋 How It Works
-1. User enters stock symbols and quantities.  
-2. Program looks up stock prices from a **hardcoded dictionary**.  
-3. It calculates the total investment = `price × quantity`.  
-4. Displays a **portfolio summary**.  
-5. (Optional) Saves results to a `.txt` file.  
+✅ Handles basic greetings like hello
 
----
----
+✅ Responds to small talk (how are you, what is your name?)
+
+✅ Supports multiple random responses for variety
+
+✅ Works with partial input matching (e.g., hello buddy → hello)
+
+✅ Exits gracefully when user says bye with a random goodbye message
+----
+## 🚀 How to Run
+
+Make sure you have Python 3.x installed.
+
+Save the script as chatbot.py.
+
+Open a terminal in the same directory.
+
+--
+Run the chatbot:
+
+python chatbot.py
+--
+
+Start chatting with the bot. Type bye to exit.
+----
+##💡 Example Interaction
+You: hello
+Bot: Hola Amigo!
+You: how are you doing today?
+Bot: I am surviving, how about you?
+You: what is your name?
+Bot: Ore wa Tenjin des.
+You: bye
+Bot: Sayonara!
+-----
+##📖 Key Concepts Used
+
+if-elif conditions (with dictionary lookup)
+
+Functions (chatbot() function for execution)
+
+Loops (while True for continuous chatting)
+
+Input/Output (user messages and bot replies)
+
+Random Module (to pick random replies)
+----
